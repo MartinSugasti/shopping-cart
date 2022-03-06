@@ -1,0 +1,23 @@
+$theme-colors: (
+  primary: #00501f,
+  primary-light: #21ae57,
+  primary-dark: #013314
+);
+
+@import "bootstrap";
+
+body, html {
+  height: 100%;
+}
+
+/* Make background gradient */
+.custom-gradient {
+  /* fallback for old browsers */
+  background: theme-color('primary');
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom, theme-color('primary-dark'), theme-color('primary-light'));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, theme-color('primary-dark'), theme-color('primary-light'))
+}
