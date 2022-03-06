@@ -6,10 +6,6 @@ $theme-colors: (
 
 @import "bootstrap";
 
-body, html {
-  height: 100%;
-}
-
 /* Make background gradient */
 .custom-gradient {
   /* fallback for old browsers */

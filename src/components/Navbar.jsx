@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary-dark">
       <NavLink to="/" className="navbar-brand">
         <img height="40" src={logo} alt="logo" />
       </NavLink>
