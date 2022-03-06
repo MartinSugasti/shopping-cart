@@ -1,14 +1,14 @@
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/js/all';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import "./assets/index.scss"
+import RouteSwitch from "./components/RouteSwitch";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RouteSwitch />
   </React.StrictMode>,
   document.getElementById('root')
 );
