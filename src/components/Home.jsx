@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Home() {
+const Home = () => {
   return (
-    <div className="container py-4">
-      <div className="card text-dark text-center">
+    <div className="container">
+      <div className="card text-dark text-center mb-4">
         <div className="card-body">
           <h3 className="mb-3">Brief history of tennis</h3>
           <p>
@@ -18,6 +18,9 @@ function Home() {
           </p>
           <p>
             In 1968, commercial pressures and rumors of some amateurs taking money under the table led to the abandonment of this distinction, inaugurating the Open Era, in which all players could compete in all tournaments, and top players were able to make their living from tennis. With the beginning of the Open Era, the establishment of an international professional tennis circuit, and revenues from the sale of television rights, tennis&apos;s popularity has spread worldwide, and the sport has shed its upper/middle-class English-speaking image (although it is acknowledged that this stereotype still exists).
+          </p>
+          <p>
+            The word tennis came into use in English in the mid-14th century from Old French, via the Anglo-Norman term Tenez, which can be translated as &apos;hold!&apos;, &apos;receive!&apos; or &apos;take!&apos;, a call from the server to his opponent indicating that he is about to serve. The first known appearance of the word in English literature is by poet John Gower in his poem titled &apos;In Praise of Peace&apos; dedicated to King Henry IV and composed in 1400; &apos;Of the tenetz to winne or lese a chase, Mai no lif wite er that the bal be ronne&apos;. (Whether a chase is won or lost at tennis, Nobody can know until the ball is run).
           </p>
           <p className="mb-0">
             Enough history. <Link to="/shop" className="text-primary-light">Let&apos;s play</Link>
