@@ -9,13 +9,11 @@ function RouteSwitch () {
   return(
     <BrowserRouter>
       <Navbar />
-      <div className="custom-gradient">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/shop" element={<Shop />} />
-          <Route path="/checkout" element={<Checkout />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shop/*" element={<Shop />} />
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
     </BrowserRouter>
   );
 };

@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/js/all';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./assets/index.scss"
+import "./assets/styles/index.scss"
 import RouteSwitch from "./components/RouteSwitch";
 
 ReactDOM.render(
