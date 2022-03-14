@@ -11,7 +11,7 @@ const Shop = () => {
 
   return (
     <div className="container">
-      <div className="d-flex justify-content-center mb-3">
+      <div className="row d-flex justify-content-center mb-3">
         <NavLink to='' className="h4 text-light mx-3" activeClassName="active">All</NavLink>
         {categories.map((category, index) => {
           return (
