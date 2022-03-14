@@ -6,7 +6,7 @@ const items = [
     brand: 'Head',
     price: '200',
     category: 'rackets',
-    id: uniqid()
+    id: 23
   },
   {
     name: 'Raqueta de Tenis Babolat Pure Aero Adulto Amarillo (300GR)',
@@ -55,7 +55,7 @@ const items = [
     brand: 'Head',
     price: '13',
     category: 'balls',
-    id: uniqid()
+    id: 42
   },
   {
     name: 'CAJÓN PELOTAS TENIS ARTENGO TB930 18 BOTES x4 AMARILLO',
@@ -97,7 +97,7 @@ const items = [
     brand: 'Babolat',
     price: '80',
     category: 'shoes',
-    id: uniqid()
+    id: 78
   },
   {
     name: 'OVERGRIP DE TENIS ARTENGO ABSORBENTE AZUL LOTE DE 3',

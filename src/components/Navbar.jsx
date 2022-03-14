@@ -17,7 +17,7 @@ function Navbar() {
         <div className="navbar-nav">
           <NavLink to="/" className="nav-item nav-link" activeClassName="active">Home</NavLink>
           <NavLink to="/shop" className="nav-item nav-link" activeClassName="active">Shop</NavLink>
-          <NavLink to="/checkout" className="nav-item nav-link" activeClassName="active">Checkout</NavLink>
+          <NavLink to="/checkout" className="nav-item nav-link" activeClassName="active">Checkout <span className="badge badge-light">3</span></NavLink>
         </div>
       </div>
     </nav>
