@@ -3,7 +3,7 @@ import allItems from '../items.js';
 import { titleCase } from '../titleCase.js';
 import '../assets/styles/cartItem.scss';
 
-const CartItem = ({ id, quantity }) => {
+const CartItem = ({ id, quantity, removeItemFromCart }) => {
   const item = allItems.find((item) => item.id === id)
 
   return (
@@ -21,7 +21,7 @@ const CartItem = ({ id, quantity }) => {
           </div>
 
           <div className="col-12 col-md-3 align-self-center my-4 my-md-0">
-            <button type="button" className="btn btn-danger">Remove</button>
+            <button type="button" className="btn btn-danger" onClick={() => removeItemFromCart(id)}>Remove</button>
           </div>
         </div>
       </li>

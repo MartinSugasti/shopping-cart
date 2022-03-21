@@ -2,7 +2,7 @@ import React from 'react';
 import Item from './Item';
 import allItems from '../items.js';
 
-const Items = ({ category }) => {
+const Items = ({ category, addItemToCart }) => {
   const filterItemsByCateogry = (category) => {
     if (category == 'All') {
       return allItems;
@@ -16,9 +16,9 @@ const Items = ({ category }) => {
   return (
     <div className="row justify-content-around">
       {items.map((item) => (
-        <Item key={item.id} item={item} />
+        <Item key={item.id} item={item} addItemToCart={addItemToCart} />
       ))}
-  </div>
+    </div>
   );
 }
 

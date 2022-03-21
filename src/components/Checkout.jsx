@@ -2,22 +2,7 @@ import React from 'react';
 import CartItem from './CartItem';
 import allItems from '../items.js';
 
-const Checkout = () => {
-  const itemsSample = [
-    {
-      id: 23,
-      quantity: 2
-    },
-    {
-      id: 78,
-      quantity: 1
-    },
-    {
-      id: 42,
-      quantity: 1
-    }
-  ]
-
+const Checkout = ({ cart, removeItemFromCart }) => {
   const total = (items) => {
     return items.reduce((total, item) => {
       const price = allItems.find((itemInfo) => itemInfo.id === item.id).price;
@@ -33,15 +18,15 @@ const Checkout = () => {
         </div>
 
         <ul className="list-group list-group-flush">
-          {itemsSample.map((item) => {
+          {cart.map((item) => {
             return (
-              <CartItem key={item.id} id={item.id} quantity={item.quantity} />
+              <CartItem key={item.id} id={item.id} quantity={item.quantity} removeItemFromCart={removeItemFromCart} />
             );
           })}
         </ul>
 
         <div className="card-footer">
-          <h3 className="mb-0">Total: ${total(itemsSample)}</h3>
+          <h3 className="mb-0">Total: ${total(cart)}</h3>
         </div>
       </div>
     </div>
