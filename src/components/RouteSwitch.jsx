@@ -50,6 +50,7 @@ function RouteSwitch () {
       <Navbar totalItems={totalItems(cart)} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/shopping-cart" element={<Home />} />
         <Route path="/shop/*" element={<Shop addItemToCart={addItemToCart} />} />
         <Route path="/checkout" element={<Checkout cart={cart} removeItemFromCart={removeItemFromCart} />} />
       </Routes>
