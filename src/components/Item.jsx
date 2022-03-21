@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/item.scss';
 import { titleCase } from '../titleCase.js';
 
-const Item = ({ item }) => {
+const Item = ({ item, addItemToCart }) => {
   return (
     <div
       className="col-12 col-sm-6 col-md-4 mb-5 d-flex align-items-stretch"
@@ -15,7 +15,7 @@ const Item = ({ item }) => {
           <p className="card-text">${item.price}</p>
         </div>
         <div className="card-footer">
-          <button type="button" className="btn btn-primary">Add to cart</button>
+          <button type="button" className="btn btn-primary" onClick={() => addItemToCart(item.id)}>Add to cart</button>
         </div>
       </div>
     </div>
