@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './Navbar';
 import Home from './Home';
@@ -6,7 +6,17 @@ import Shop from './Shop';
 import Checkout from './Checkout';
 
 function RouteSwitch () {
-  const [cart, setCart] = useState([]);
+  const cartFromLocalStorage = () => {
+    return (
+      JSON.parse(localStorage.getItem('shoppingCart')) || []
+    );
+  }
+
+  const [cart, setCart] = useState(cartFromLocalStorage());
+
+  useEffect(() => {
+    localStorage.setItem('shoppingCart', JSON.stringify(cart));
+  }, [cart]);
 
   const addItemToCart = (id) => {
     const item = cart.find((element) => element['id'] === id)
