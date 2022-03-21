@@ -39,9 +39,15 @@ function RouteSwitch () {
     setCart(cart.filter((element) => element['id'] !== id));
   }
 
+  const totalItems = (cart) => {
+    return cart.reduce((total, item) => {
+      return total + item['quantity'];
+    }, 0)
+  }
+
   return(
     <BrowserRouter>
-      <Navbar />
+      <Navbar totalItems={totalItems(cart)} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop/*" element={<Shop addItemToCart={addItemToCart} />} />
