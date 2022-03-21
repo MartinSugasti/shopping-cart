@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import logo from "../assets/logo.png";
 
-function Navbar() {
+function Navbar({ totalItems }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark mb-4">
       <NavLink to="/" className="navbar-brand">
@@ -17,7 +17,7 @@ function Navbar() {
         <div className="navbar-nav">
           <NavLink to="/" className="nav-item nav-link" activeClassName="active">Home</NavLink>
           <NavLink to="/shop" className="nav-item nav-link" activeClassName="active">Shop</NavLink>
-          <NavLink to="/checkout" className="nav-item nav-link" activeClassName="active">Checkout <span className="badge badge-light">3</span></NavLink>
+          <NavLink to="/checkout" className="nav-item nav-link" activeClassName="active">Checkout <span className="badge badge-light">{totalItems}</span></NavLink>
         </div>
       </div>
     </nav>
