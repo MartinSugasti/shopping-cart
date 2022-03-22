@@ -23,7 +23,7 @@ const Home = () => {
             The word tennis came into use in English in the mid-14th century from Old French, via the Anglo-Norman term Tenez, which can be translated as &apos;hold!&apos;, &apos;receive!&apos; or &apos;take!&apos;, a call from the server to his opponent indicating that he is about to serve. The first known appearance of the word in English literature is by poet John Gower in his poem titled &apos;In Praise of Peace&apos; dedicated to King Henry IV and composed in 1400; &apos;Of the tenetz to winne or lese a chase, Mai no lif wite er that the bal be ronne&apos;. (Whether a chase is won or lost at tennis, Nobody can know until the ball is run).
           </p>
           <p className="mb-0">
-            Enough history. <Link to="/shop" className="text-primary-light">Let&apos;s play</Link>
+            Enough history. <Link to="/shopping-cart/shop" className="text-primary-light">Let&apos;s play</Link>
           </p>
         </div>
       </div>

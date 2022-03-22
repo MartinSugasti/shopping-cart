@@ -51,8 +51,8 @@ function RouteSwitch () {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shopping-cart" element={<Home />} />
-        <Route path="/shop/*" element={<Shop addItemToCart={addItemToCart} />} />
-        <Route path="/checkout" element={<Checkout cart={cart} removeItemFromCart={removeItemFromCart} />} />
+        <Route path="/shopping-cart/shop/*" element={<Shop addItemToCart={addItemToCart} />} />
+        <Route path="/shopping-cart/checkout" element={<Checkout cart={cart} removeItemFromCart={removeItemFromCart} />} />
       </Routes>
     </BrowserRouter>
   );

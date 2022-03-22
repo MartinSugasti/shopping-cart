@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 function Navbar({ totalItems }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark mb-4">
-      <NavLink to="/" className="navbar-brand">
+      <NavLink to="/shopping-cart" className="navbar-brand">
         <img height="40" src={logo} alt="logo" />
       </NavLink>
 
@@ -15,9 +15,9 @@ function Navbar({ totalItems }) {
 
       <div className="collapse navbar-collapse justify-content-end" id="navbarText">
         <div className="navbar-nav">
-          <NavLink to="/" className="nav-item nav-link" activeClassName="active">Home</NavLink>
-          <NavLink to="/shop" className="nav-item nav-link" activeClassName="active">Shop</NavLink>
-          <NavLink to="/checkout" className="nav-item nav-link" activeClassName="active">Checkout <span className="badge badge-light">{totalItems}</span></NavLink>
+          <NavLink to="/shopping-cart" end className="nav-item nav-link" activeClassName="active">Home</NavLink>
+          <NavLink to="/shopping-cart/shop" className="nav-item nav-link" activeClassName="active">Shop</NavLink>
+          <NavLink to="/shopping-cart/checkout" className="nav-item nav-link" activeClassName="active">Checkout <span className="badge badge-light">{totalItems}</span></NavLink>
         </div>
       </div>
     </nav>
