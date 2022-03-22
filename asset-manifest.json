@@ -1,13 +1,33 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.f85365c7.css",
-    "main.js": "/shopping-cart/static/js/main.445db13a.js",
+    "main.js": "/shopping-cart/static/js/main.304bcdb1.js",
+    "static/media/AccessoriesSolinco120.jpeg": "/shopping-cart/static/media/AccessoriesSolinco120.1a793cbd2950a3e267f1.jpeg",
+    "static/media/AccessoriesArtengo70.jpeg": "/shopping-cart/static/media/AccessoriesArtengo70.e8c52553222bb91756dc.jpeg",
+    "static/media/AccessoriesArtengo35.jpeg": "/shopping-cart/static/media/AccessoriesArtengo35.0de7ef1a3daf23c17016.jpeg",
+    "static/media/BallsArtengo3.jpeg": "/shopping-cart/static/media/BallsArtengo3.e01b840de8e209937d86.jpeg",
+    "static/media/BallsHead13.jpeg": "/shopping-cart/static/media/BallsHead13.0c775e8560721e610fd3.jpeg",
+    "static/media/ShoesBabolat80.jpeg": "/shopping-cart/static/media/ShoesBabolat80.591c806286d1bab2908b.jpeg",
+    "static/media/BallsArtengo12.jpeg": "/shopping-cart/static/media/BallsArtengo12.8053018a2dc9fadcf308.jpeg",
+    "static/media/ShoesArtengo40.jpeg": "/shopping-cart/static/media/ShoesArtengo40.adc1551727fb76ff9ca0.jpeg",
+    "static/media/AccessoriesArtengo5.jpeg": "/shopping-cart/static/media/AccessoriesArtengo5.733c279fb8a76d94cf4f.jpeg",
+    "static/media/AccessoriesArtengo45.jpeg": "/shopping-cart/static/media/AccessoriesArtengo45.fe2e6611e99901e712ba.jpeg",
+    "static/media/ShoesAsics65.jpeg": "/shopping-cart/static/media/ShoesAsics65.40be6f5ff57ccb69bde3.jpeg",
+    "static/media/RacketsBabolat170.jpeg": "/shopping-cart/static/media/RacketsBabolat170.54ad86f5dffaafb8eb0f.jpeg",
+    "static/media/RacketsBabolat180.jpeg": "/shopping-cart/static/media/RacketsBabolat180.091ecfd3ed1d09389f1d.jpeg",
+    "static/media/BallsArtengo100.jpeg": "/shopping-cart/static/media/BallsArtengo100.da98ac2b336f7d825fc2.jpeg",
+    "static/media/RacketsHead200.jpeg": "/shopping-cart/static/media/RacketsHead200.5731f739c745539cef21.jpeg",
+    "static/media/RacketsWilson200.jpeg": "/shopping-cart/static/media/RacketsWilson200.c8be7abe2c3564563a71.jpeg",
+    "static/media/AccessoriesArtengo25.jpeg": "/shopping-cart/static/media/AccessoriesArtengo25.9e49d78ace3060585a45.jpeg",
+    "static/media/RacketsWilson210.jpeg": "/shopping-cart/static/media/RacketsWilson210.52b02ca3c4bf5b7764d8.jpeg",
+    "static/media/ShoesAdidas65.jpeg": "/shopping-cart/static/media/ShoesAdidas65.368f565743f0d8bfc8e2.jpeg",
+    "static/media/BallsHead6.jpeg": "/shopping-cart/static/media/BallsHead6.6899591b9fb1fc07c2da.jpeg",
     "index.html": "/shopping-cart/index.html",
     "main.f85365c7.css.map": "/shopping-cart/static/css/main.f85365c7.css.map",
-    "main.445db13a.js.map": "/shopping-cart/static/js/main.445db13a.js.map"
+    "main.304bcdb1.js.map": "/shopping-cart/static/js/main.304bcdb1.js.map"
   },
   "entrypoints": [
     "static/css/main.f85365c7.css",
-    "static/js/main.445db13a.js"
+    "static/js/main.304bcdb1.js"
   ]
 }
