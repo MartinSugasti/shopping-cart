@@ -5,8 +5,11 @@ import allItems from '../items.js';
 const Checkout = ({ cart, removeItemFromCart }) => {
   const total = (items) => {
     return items.reduce((total, item) => {
-      const price = allItems.find((itemInfo) => itemInfo.id === item.id).price;
-      return total + parseFloat(price);
+      const itemInfo = allItems.find((itemInfo) => itemInfo.id === item.id);
+      const price = itemInfo.price;
+      const quantity = item.quantity;
+
+      return total + parseFloat(price) * parseFloat(quantity);
     }, 0)
   }
 
