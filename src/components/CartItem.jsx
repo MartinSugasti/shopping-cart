@@ -10,7 +10,7 @@ const CartItem = ({ id, quantity, removeItemFromCart }) => {
       <li className="list-group-item">
         <div className="row">
           <div className="col-12 col-md-3">
-            <img src={`./images/${item.category}${item.brand}${item.price}.jpeg`} className="card-img-top border shadow cart-item-image" />
+            <img src={item.image} className="card-img-top border shadow cart-item-image" />
           </div>
 
           <div className="col-12 col-md-6 align-self-center text-center text-md-left mt-4 mt-md-0">
